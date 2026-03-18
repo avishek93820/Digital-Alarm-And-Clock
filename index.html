@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Clock & Alarm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>⏰ Digital Clock & Alarm</h1>
+
+<div class="clock" id="clock"></div>
+<div class="date" id="date"></div>
+
+<h3>Set Alarm</h3>
+
+<input type="time" id="alarmTime">
+<select id="tone">
+    <option value="beep">Beep</option>
+    <option value="ring">Ring</option>
+</select>
+<button onclick="addAlarm()">Add Alarm</button>
+
+<div class="alarm-list" id="alarmList"></div>
+
+<h3 id="status"></h3>
+
+<audio id="beep" src="assets/beep.wav"></audio>
+<audio id="ring" src="assets/ring.wav"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>

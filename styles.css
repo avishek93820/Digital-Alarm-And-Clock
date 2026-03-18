@@ -1,0 +1,45 @@
+body {
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.clock {
+    font-size: 60px;
+    margin: 10px;
+}
+
+.date {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+input, button, select {
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+button {
+    background: #22c55e;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #16a34a;
+}
+
+.alarm-list {
+    margin-top: 20px;
+}
+
+.alarm-item {
+    background: #1e293b;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
